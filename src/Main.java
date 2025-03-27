@@ -1,7 +1,54 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
+        String s = "Задача 1";
+        System.out.println(s);
         byte box = 3;
+        short apple = -129;
+        int car = 2;
+        long bedroom = 100;
+        float paper = 7.7777777f;
+        double bubble = 8.888888888888888;
         System.out.println(box);
+        System.out.println(apple);
+        System.out.println(car);
+        System.out.println(bedroom);
+        System.out.println(paper);
+        System.out.println(bubble);
+        String m = "Задача 2";
+        System.out.println(m);
+        float a = 27.12f;
+        System.out.println(a);
+        long b = 987678965549L;
+        System.out.println(b);
+        float c = 2.786f;
+        System.out.println(c);
+        short d = 569;
+        System.out.println(d);
+        short e = -159;
+        System.out.println(e);
+        short f = 27897;
+        System.out.println(f);
+        byte g = 67;
+        System.out.println(g);
+        String n = "Задача 3";
+        System.out.println(n);
+        byte teacher1 = 23;
+        byte teacher2 = 27;
+        byte teacher3 = 30;
+        short list = 480;
+        short sheetsPerStudent = (short) (list / (teacher1 + teacher2 + teacher3));
+        System.out.println("На каждого ученика рассчитано " + sheetsPerStudent + " листов бумаги.");
+        String j = "Задача 4";
+        System.out.println(j);
+        byte machine1Min = 16 / 2;
+        short machine20Min = (short) (machine1Min * 20);
+        short machine2400Min = (short) (60 * 24);
+        short machine24_1 = (short) (machine2400Min * machine1Min);
+        int machine24_3 = (3 * machine24_1);
+        int machine24_30 = (30 * machine24_1);
+        System.out.println("За 20 минут машина произвела " +machine20Min+ " штук бутылок");
+        System.out.println("За сутки машина произвела " +machine24_1+ " штук бутылок");
+        System.out.println("За 3 дня машина произвела " +machine24_3+ " штук бутылок");
+        System.out.println("За 1 месяц машина произвела " +machine24_30+ " штук бутылок");
     }
 }
