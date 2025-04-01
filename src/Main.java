@@ -96,6 +96,6 @@ public class Main {
         System.out.println("Маша теперь получает " + MashaPlus10Percent + " рублей. Годовой доход вырос на " + DifferenceMashaYear1Plus10Percent + " рублей");
         System.out.println("Денис теперь получает " + DenisPlus10Percent + " рублей. Годовой доход вырос на " + DifferenceDenisYear1Plus10Percent + " рублей");
         System.out.println("Кристина теперь получает " + KristinaPlus10Percent + " рублей. Годовой доход вырос на " + DifferenceKristinaYear1Plus10Percent + " рублей");
-
+        System.out.println("Всё.");
     }
 }
